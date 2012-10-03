@@ -1,0 +1,14 @@
+﻿//キーボードマクロのファイル
+S_ReplaceAll('\\|', '\\t', 28);	// 
+S_ReDraw(0);	// 再描画
+S_SearchNext('^[ ]+', 28);	// 次を検索
+S_ReplaceAll('^[ ]+', '', 28);	// 
+S_ReDraw(0);	// 再描画
+S_SearchNext('[ ]*\\t[ ]*', 28);	// 次を検索
+S_ReplaceAll('[ ]*\\t[ ]*', '\\t', 28);	// 
+S_ReDraw(0);	// 再描画
+S_ReplaceAll('[ ]*$', '$', 28);	// 
+S_ReDraw(0);	// 再描画
+S_Undo(0);	// 元に戻す
+S_ReplaceAll('[ ]*$', '', 28);	// 
+S_ReDraw(0);	// 再描画

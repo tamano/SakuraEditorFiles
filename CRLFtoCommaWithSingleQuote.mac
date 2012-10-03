@@ -1,0 +1,9 @@
+﻿//キーボードマクロのファイル
+S_ReplaceAll('^', '\'', 28);	// 
+S_ReDraw(0);	// 再描画
+S_ReplaceAll('$', '\'', 28);	// 
+S_ReDraw(0);	// 再描画
+S_ReplaceAll('\\r\\n', ', ', 28);	// 
+S_ReDraw(0);	// 再描画
+S_DeleteBack(0);	// カーソル前を削除
+S_DeleteBack(0);	// カーソル前を削除
