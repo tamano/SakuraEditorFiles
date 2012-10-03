@@ -1,4 +1,4 @@
-# SakuraEditorMacro (サクラエディタマクロ)
+# SakuraEditorMacro
 
 these files are macro file for Sakura Editor(http://sakura-editor.sourceforge.net/).
 
