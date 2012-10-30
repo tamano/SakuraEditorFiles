@@ -1,6 +1,6 @@
-# SakuraEditorMacro
+# SakuraEditorFiles
 
-these files are macro file for Sakura Editor(http://sakura-editor.sourceforge.net/).
+these files are macro / setting / rule file for Sakura Editor(http://sakura-editor.sourceforge.net/).
 
 ## LICENSE
 
